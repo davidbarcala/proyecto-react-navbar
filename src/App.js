@@ -2,7 +2,7 @@ import './App.css';
 import Footer from './components/footer';
 import Main from './components/main';
 import NavBar from './components/navbar';
-// import './navbar.css';
+import ItemListContainer from './components/itemlistcontainer';
 
 
 function App() {
@@ -10,8 +10,8 @@ function App() {
 
     <>
     <NavBar />
-    <Main />
-    <Footer/>
+    <ItemListContainer texto= 'hola tutor este es el saludo del desafio,te pido que no mires los colores del nav (tiene el carrito) y footer, son solo orientavtivos jajajaja'/>
+    <Footer />
     </>
     
 

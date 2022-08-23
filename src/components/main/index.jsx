@@ -1,9 +1,12 @@
-import React from "react";
+import React from 'react';
 
 
-export const Main = () => {
+export const Main = ({greeting}) => {
+    
     return( 
-        <div className="cont_principal">mi main de react</div>
+        <main>
+            <h1 className="cont_principal">{greeting}</h1>
+        </main>
     );
 }
 

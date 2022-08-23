@@ -31,7 +31,24 @@ code {
   position: absolute;
   bottom: 0;
   width: 100%;
-  
-  
-  
+}
+
+.cont_principal{
+  display: flex;
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 50px;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.saludo{
+  display: flex;
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 50px;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
 }
