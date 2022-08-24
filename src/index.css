@@ -34,21 +34,20 @@ code {
 }
 
 .cont_principal{
-  display: flex;
-  position: absolute;
-  margin-top: 250px;
-  margin-left: 50px;
-  text-align: center;
-  align-items: center;
-  justify-items: center;
+  width: 80px;
+  margin-top: 150px;
+  margin-left: 100px;
 }
 
-.saludo{
-  display: flex;
-  position: absolute;
-  margin-top: 350px;
-  margin-left: 50px;
+
+
+
+.counter{
+  width : 80px;
+  background-color: rgb(79, 79, 4);
+  margin-top: 10px;
+  margin-left: 500px;
   text-align: center;
-  align-items: center;
-  justify-items: center;
+  
 }
+     

@@ -10,7 +10,7 @@ function App() {
 
     <>
     <NavBar />
-    <ItemListContainer texto= 'hola tutor este es el saludo del desafio,te pido que no mires los colores del nav (tiene el carrito) y footer, son solo orientavtivos jajajaja'/>
+    <ItemListContainer texto= 'hola tutor'/>
     <Footer />
     </>
     
