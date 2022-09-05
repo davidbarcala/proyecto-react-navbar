@@ -1,7 +1,7 @@
 body {
   margin: 0;
   position: relative;
-  min-height: 100vh;
+  min-height: 00px;
   padding-bottom: 3em;
   min-width: 100vh;
   border: 1px solid red;
@@ -14,22 +14,25 @@ code {
 
    /*inicio estilos propios*/
 .container {
-  background-color: blueviolet;
+  display: flex;
+  /* background-color: blueviolet; */
   padding: 1em;
   text-align: center;
   position: absolute;
   top: 0;
   width: 100%;
+  height: 50px;
+  
 }
 
 
 
 .container_footer{
   background-color: rgb(217, 214, 23);
-  padding: 1em;
+  padding: 0.5em;
   text-align: center;
   position: absolute;
-  bottom: 0;
+  bottom: -500px;
   width: 100%;
 }
 
@@ -63,4 +66,44 @@ code {
   margin-top: 0px;
   
 }
+
+.container{
+  width: 98%;
+  margin: auto;
+}
+
+@media screen  and (min-width:768px) {
+  .container {
+    width:50%;
+  }
+  
+}
+
+.detail{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.detail-image{
+  width: 100%;
+}
+
+.content{
+  width: 100%;
+}
+
+@media screen and (min-width:768px) {
+  .detail-image{
+    width: 50%;
+  }
+
+  .content{
+    padding-left: 3rem;
+    width: 50%;
+  }
+}
+
      

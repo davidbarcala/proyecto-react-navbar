@@ -2,7 +2,8 @@ import './App.css';
 import Footer from './components/footer';
 import Main from './components/main';
 import NavBar from './components/navbar';
-import ItemListContainer from './components/itemlistcontainer';
+
+import ItemDetailContainer from './components/itemdetailcontainer';
 
 
 function App() {
@@ -10,8 +11,10 @@ function App() {
 
     <>
     <NavBar />
-    <ItemListContainer texto= 'hola tutor'/>
+    
+    <ItemDetailContainer/>
     <Footer />
+    
     </>
     
 

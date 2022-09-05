@@ -19,7 +19,7 @@ export const ItemListContainer = (props) => {
 const getData = new Promise(resolve =>{
     setTimeout(() => {
         resolve(Wines);
-    },2000);
+    },10000);
 });
 
 getData.then(res => setData(res));
